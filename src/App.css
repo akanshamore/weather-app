@@ -1,38 +1,73 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  color: #61dafb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-color: #060e1e;
+
+}
+
+
+.inputStyle {
+
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gold;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 500px;
+  border-radius: 20px;
+  color: darkslategray;
+}
+
+
+.weatherButton {
+
+ 
+  cursor: pointer;
+  background-color: rgb(255, 0, 30);
+  outline: none;
+  border: 1px solid white;
   color: white;
+  font-weight: bold;
+  padding: 10px 20px ;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.weatherContainer {
+
+  border: 1px rgb(149, 152, 64) solid;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: aliceblue;
+  font-size: 18px;
+
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  align-self: center;
+}
+
+.dataSpan {
+  color: goldenrod
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  align-self: center;
 }
